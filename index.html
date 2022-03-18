@@ -54,6 +54,9 @@
                         <img src="img/icons/triangle__down.png" alt="Треугольник" class="cart__triangle">
                     </div>
                 </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
             </div>
         </header>
         <main class="main">
@@ -85,29 +88,29 @@
                     <div class="works__subtitle">
                         Подбери себе флорариум по размеру:
                     </div>
-                    <ul class="works__size-list">
+                    <ul class="works_size-list">
                         <li class="works__size-item">
                             <label>
-                                <input type="radio" name="size" class="works__size-btn">
-                                <div class="works__size-fake">S</div>
+                                <input type="radio" name="size" id="" class="work__size-button">
+                                <div class="works__size-fake">s</div>
                             </label>
                         </li>
                         <li class="works__size-item">
                             <label>
-                                <input type="radio" name="size" class="works__size-btn">
-                                <div class="works__size-fake">M</div>
+                                <input type="radio" name="size" id="" class="work__size-button">
+                                <div class="works__size-fake">m</div>
                             </label>
                         </li>
                         <li class="works__size-item">
                             <label>
-                                <input type="radio" name="size" class="works__size-btn">
-                                <div class="works__size-fake">L</div>
+                                <input type="radio" name="size" id="" class="work__size-button">
+                                <div class="works__size-fake">l</div>
                             </label>
                         </li>
                         <li class="works__size-item">
                             <label>
-                                <input type="radio" name="size" class="works__size-btn">
-                                <div class="works__size-fake">XL</div>
+                                <input type="radio" name="size" id="" class="work__size-button">
+                                <div class="works__size-fake">xl</div>
                             </label>
                         </li>
                     </ul>
@@ -121,17 +124,17 @@
                         <ul class="works__list">
                             <li class="works__item">
                                 <a href="#" class="works__product">
-                                    <img src="img/finished_work/oazis.png" alt="Оазис" class="works__img">
+                                    <img class="works__img" src="img/finished_work/oazis.png" alt="Оазис">
                                 </a>
                                 <div class="works__product-info">
-                                    <a href="#" class="works__product-name">
+                                    <a href="#" class="works__produkt-name">
                                         “Оазис”
                                     </a>
-                                    <a href="#" class="works__product-desc">
+                                    <a href="#" class="works__produkt-desc">
                                         Набор включает в себя: 3 разновидности суккулентов, тайскую архидею, грунт,
                                         стеклянный флорариум и элементы декора.
                                     </a>
-                                    <div class="works__product-footer">
+                                    <div class="works__produkt-footer">
                                         <span class="works__price">35$</span>
                                         <button class="in-cart">В корзину</button>
                                     </div>
@@ -139,17 +142,17 @@
                             </li>
                             <li class="works__item">
                                 <a href="#" class="works__product">
-                                    <img src="img/finished_work/oazis.png" alt="Оазис" class="works__img">
+                                    <img class="works__img" src="img/finished_work/oazis.png" alt="Оазис">
                                 </a>
                                 <div class="works__product-info">
-                                    <a href="#" class="works__product-name">
+                                    <a href="#" class="works__produkt-name">
                                         “Оазис”
                                     </a>
-                                    <a href="#" class="works__product-desc">
+                                    <a href="#" class="works__produkt-desc">
                                         Набор включает в себя: 3 разновидности суккулентов, тайскую архидею, грунт,
                                         стеклянный флорариум и элементы декора.
                                     </a>
-                                    <div class="works__product-footer">
+                                    <div class="works__produkt-footer">
                                         <span class="works__price">35$</span>
                                         <button class="in-cart">В корзину</button>
                                     </div>
@@ -157,74 +160,107 @@
                             </li>
                             <li class="works__item">
                                 <a href="#" class="works__product">
-                                    <img src="img/finished_work/oazis.png" alt="Оазис" class="works__img">
+                                    <img class="works__img" src="img/finished_work/oazis.png" alt="Оазис">
                                 </a>
                                 <div class="works__product-info">
-                                    <a href="#" class="works__product-name">
+                                    <a href="#" class="works__produkt-name">
                                         “Оазис”
                                     </a>
-                                    <a href="#" class="works__product-desc">
+                                    <a href="#" class="works__produkt-desc">
                                         Набор включает в себя: 3 разновидности суккулентов, тайскую архидею, грунт,
                                         стеклянный флорариум и элементы декора.
                                     </a>
-                                    <div class="works__product-footer">
+                                    <div class="works__produkt-footer">
                                         <span class="works__price">35$</span>
                                         <button class="in-cart">В корзину</button>
                                     </div>
                                 </div>
                             </li>
                         </ul>
+
                     </div>
                 </div>
             </section>
             <section class="about">
-                <div class="about__container">
-                    <div class="about__section-title">
+                <div class="container about__container">
+                    <div class="about__title">
                         О нас говорят
                     </div>
-                    <div class="about__list">
-                        <div class="about__review">
-                            <div class="about__photo">
-                                <img src="img/rev__photo/ivan.png" alt="Иван">
-                            </div>
-                            <div class="about__title">
-                                <span class="name">Иван</span>
-                                <span class="about__work">директор "Office"</span>
-                            </div>
-                            <div class="about__text">
+                    <ul class="reviews">
+                        <li class="reviews__item">
+                            <a href="#" class="reviews__header">
+                                <span class="reviews__name">Иван</span>
+                                <span class="reviews__profession">директор "Office"</span>
+                            </a>
+                            <div href="#" class="reviews__text">
                                 Обратился в компанию “Floris master” для озеленения нашего офиса, теперь на рабочем
-                                месте царит гармония и уют.
+                                месте
+                                царит гармония и уют.
                             </div>
-                        </div>
-                        <div class="about__review">
-                            <div class="about__photo">
-                                <img src="img/rev__photo/kate.png" alt="Екатерина">
+                            <div class="reviews__avatar">
+                                <img src="img/rev__photo/ivan.png" alt="" class="reviews__img">
                             </div>
-                            <div class="about__title">
-                                <span class="name">Екатерина</span>
-                                <span class="about__work">фрилансер</span>
-                            </div>
-                            <div class="about__text">
+                        </li>
+                        <li class="reviews__item">
+                            <a href="#" class="reviews__header">
+                                <span class="reviews__name">Екатерина</span>
+                                <span class="reviews__profession">фрилансер</span>
+                            </a>
+                            <div href="#" class="reviews__text">
                                 Решила добавить эстетики в интерьер свого дома, ребята из “Florist master” справились с
                                 этим как никто другой.
                             </div>
-                        </div>
-                        <div class="about__review">
-                            <div class="about__photo">
-                                <img src="img/rev__photo/vladimir.png" alt="Владимир">
+                            <div class="reviews__avatar">
+                                <img src="img/rev__photo/kate.png" alt="" class="reviews__img">
                             </div>
-                            <div class="about__title">
-                                <span class="name">Владимир</span>
-                                <span class="about__work">безработный</span>
-                            </div>
-                            <div class="about__text">
+                        </li>
+                        <li class="reviews__item">
+                            <a href="#" class="reviews__header">
+                                <span class="reviews__name">Владимир</span>
+                                <span class="reviews__profession">безработный</span>
+                            </a>
+                            <div href="#" class="reviews__text">
                                 Люблю цветочки и все что с ними связано.
                             </div>
-                        </div>
-                    </div>
+                            <div class="reviews__avatar">
+                                <img src="img/rev__photo/vladimir.png" alt="" class="reviews__img">
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </main>
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="logo">
+                    <div class="logo__img">
+                        <img src="img/logo.png" alt="Логотип Флорариум" class="logo__pic">
+                    </div>
+                    <div class="logo__text">
+                        <div class="logo__title">
+                            Florist master
+                        </div>
+                        <div class="logo__subtitle">
+                            Магазин флорариумов
+                        </div>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Каталог</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="tel:+76543210000" class="tel">+7 654 321 00 00</a> 
+            </div>
+        </footer>
     </div>
 </body>
 

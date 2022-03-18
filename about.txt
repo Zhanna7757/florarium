@@ -1,0 +1,48 @@
+<section class="about">
+                <div class="container about__container">
+                    <div class="about__title">
+                        О нас говорят
+                    </div>
+                    <ul class="reviews">
+                        <li class="reviews__item">
+                            <a href="#" class="reviews__header">
+                                <span class="reviews__name">Иван</span>
+                                <span class="reviews__profession">директор "Office"</span>
+                            </a>
+                            <div href="#" class="reviews__text">
+                                Обратился в компанию “Floris master” для озеленения нашего офиса, теперь на рабочем
+                                месте
+                                царит гармония и уют.
+                            </div>
+                            <div class="reviews__avatar">
+                                <img src="img/rev__photo/ivan.png" alt="" class="reviews__img">
+                            </div>
+                        </li>
+                        <li class="reviews__item">
+                            <a href="#" class="reviews__header">
+                                <span class="reviews__name">Екатерина</span>
+                                <span class="reviews__profession">фрилансер</span>
+                            </a>
+                            <div href="#" class="reviews__text">
+                                Решила добавить эстетики в интерьер свого дома, ребята из “Florist master” справились с
+                                этим как никто другой.
+                            </div>
+                            <div class="reviews__avatar">
+                                <img src="img/rev__photo/kate.png" alt="" class="reviews__img">
+                            </div>
+                        </li>
+                        <li class="reviews__item">
+                            <a href="#" class="reviews__header">
+                                <span class="reviews__name">Владимир</span>
+                                <span class="reviews__profession">безработный</span>
+                            </a>
+                            <div href="#" class="reviews__text">
+                                Люблю цветочки и все что с ними связано.
+                            </div>
+                            <div class="reviews__avatar">
+                                <img src="img/rev__photo/vladimir.png" alt="" class="reviews__img">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>

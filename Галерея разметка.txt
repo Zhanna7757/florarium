@@ -1,0 +1,41 @@
+<section class="gallery">
+                <div class="container">
+                    <div class="section-title gallery__title">
+                        Фото галерея
+                    </div>
+                    <div class="gallery__items">
+                        <a href="" class="gallery__item gallery__item--big">
+                            <img src="img/photo_gallery/uyut.jpg" alt="Уют" class="gallery__img">
+                            <div class="gallery__name">Набор ”уют +”</div>
+                        </a>
+                        <a href="" class="gallery__item gallery__item--s">
+                            <img src="img/photo_gallery/Present.jpg" alt="Уют" class="gallery__img">
+                            <div class="gallery__name">Подарочные наборы</div>
+                        </a>
+                        <a href="" class="gallery__item gallery__item--xl">
+                            <img src="img/photo_gallery/Succulents.jpg" alt="Уют" class="gallery__img">
+                            <div class="gallery__name">Суккуленты для офиса</div>
+                        </a>
+                        <a href="" class="gallery__item gallery__item--l">
+                            <img src="img/photo_gallery/Florarium.jpg" alt="Уют" class="gallery__img">
+                            <div class="gallery__name">Флорариум для него</div>
+                        </a>
+                        <a href="" class="gallery__item gallery__item--m">
+                            <img src="img/photo_gallery/Best.jpg" alt="Уют" class="gallery__img">
+                            <div class="gallery__name">Лучший набор 2020</div>
+                        </a>
+                        <a href="" class="gallery__item gallery__item--m">
+                            <img src="img/photo_gallery/Floriana_for_her.jpg" alt="Уют" class="gallery__img">
+                            <div class="gallery__name">Флорариум для нее</div>
+                        </a>
+                        <a href="" class="gallery__item gallery__item--s">
+                            <img src="img/photo_gallery/Budget.jpg" alt="Уют" class="gallery__img">
+                            <div class="gallery__name">Боджетный набор</div>
+                        </a>
+                        <a href="" class="gallery__item gallery__item--l">
+                            <img src="img/photo_gallery/interier.jpg" alt="Уют" class="gallery__img">
+                            <div class="gallery__name">Наборы для интерьера</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
